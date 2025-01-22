@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Invoice management System
 
-## Getting Started
+In this project, I have build a **Invoive Managemnet System** from complete scratch using the latest and best tech available in the market.
 
-First, run the development server:
+## 🔥 Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js App Router**: For building a modern and fast frontend.
+- **Mailtrap Email API**: For testing and sending email communications.
+- **Neon Postgres Database**: A serverless, scalable PostgreSQL database.
+- **Prisma ORM**: For efficient database management.
+- **Auth.js**: For seamless custom authentication.
+- **Tailwind CSS**: For elegant and responsive styling.
+- **Shadcn/UI**: For prebuilt and customizable UI components.
+- **Conform**: For advanced server-side validation using **Zod**.
+- **Vercel**: For quick and easy deployment.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📜 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🌐 **Next.js App Router**
+Experience the power of a server-side rendered frontend with optimized performance.
 
-## Learn More
+### 📧 **Mailtrap Email API**
+Utilize Mailtrap to send emails with:
+- Magic link authentication.
+- Beautiful email templates.
+- Invoice reminders.
 
-To learn more about Next.js, take a look at the following resources:
+### 💪 **Invoice Management**
+- Create new invoices effortlessly.
+- Edit existing invoices for flexibility.
+- Mark invoices as paid to keep your records updated.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🚀 **Send Emails**
+- Deliver invoices directly to clients.
+- Send reminders with attractive and functional email templates.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔒 **Custom Authentication**
+- Magic link authentication powered by **Mailtrap**.
+- Secure login and signup process using **Auth.js**.
 
-## Deploy on Vercel
+### 📃 **Custom PDF Generation**
+Generate professional invoices in PDF format for easy sharing and record-keeping.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🏄‍♂️ **Send Invoice to Clients**
+Enable seamless communication with your clients by emailing them invoices directly.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 💽 **Neon Postgres Database**
+Leverage a serverless and scalable database backend with **Neon Postgres**.
+
+### 🏎️ **Dashboard with Charts**
+Visualize your business performance with:
+- Animated and interactive charts.
+- Detailed revenue tracking.
+
+### ✅ **Server Validation**
+- Perform robust validations using **Zod** and **Conform** to ensure data integrity.
+
+### 🎨 **Styling**
+- Elegant and consistent styling using **Tailwind CSS** and **Shadcn UI**.
+
+### 😶‍🌫️ **Deployment**
+Deploy your application seamlessly on **Vercel** for a global reach.
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Sudharsan-Velumani/invoice-generator
+   cd invoice-generator
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Set Environment Variables**:
+   Create a `.env` file and configure the required environment variables for:
+   - Mailtrap API.
+   - Neon Postgres database.
+   - Auth.js configuration.
+
+4. **Run the Application**:
+   ```bash
+   npm run dev
+   ```
+
+5. **Access the App**:
+   Open your browser and navigate to `http://localhost:3000`.
+
+---
+## 🎉 Acknowledgements
+This project is inspired by the latest advancements in web development and is made possible with the following resources:
+
+1. Next.js Documentation
+2. Prisma Documentation
+3. Mailtrap API Guide
+4. Neon Postgres Documentation
+5. Tailwind CSS Docs
+6. Special thanks to the open-source community for their amazing contributions.
+
+## 📧 Support
+For questions or support, feel free to open an issue or reach out via sudharsanmay10@gmail.com.
+
+Happy coding! 🎉
+
