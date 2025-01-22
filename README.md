@@ -2,6 +2,9 @@
 
 In this project, I have build a **Invoive Managemnet System** from complete scratch using the latest and best tech available in the market.
 
+## Planning
+- **Eraser** : `https://app.eraser.io/workspace/gOvVd6O3ECKdq80pEkHv`
+
 ## 🔥 Technologies Used
 
 - **Next.js App Router**: For building a modern and fast frontend.
